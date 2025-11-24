@@ -1,3 +1,4 @@
+
 # Exp.No:21  
 ## Constructors - Parameterized Constructor
 
@@ -23,10 +24,23 @@ To write a Python code to create a class for a person with a parameterized const
 
 ### PROGRAM
 
-```
+```python
+class Person:
+    def __init__(self, name, uid):
+        self.name = name
+        self.uid = uid
 
+    def dis(self):
+        print(self.uid)
+
+name = input()
+uid = input()
+p = Person(name, uid)
+p.dis()
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/de78e84a-0f9f-4f4e-9a97-b5d62b136760)
 
 ### RESULT
+Thus the program to create a class for a person with a parameterized constructor has been implemented and executed successfully.
